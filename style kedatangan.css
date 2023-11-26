@@ -1,0 +1,90 @@
+.container {
+    display: flex;
+
+    /* Properti lainnya */
+    width: 90%;
+    height: 2800px;
+    background-color: #11C5C6;
+
+}
+.box {
+    /* properti lainnya */
+    background-color: teal;
+    
+}
+.footer {
+    display: flex;
+    flex-direction: column;
+
+    /* Properti lainnya */
+    width: 101%;
+    height: 90px;
+    background-color: #fff;
+    margin-left: -10px;
+
+}
+
+.first {
+    flex-grow: 4;
+    color: #fff;
+}
+.second {
+    flex-grow: 4;
+    width: 100px;
+    color: #fff;
+}
+.thrid{
+    flex-grow: 1 ;
+    background-color: #fff;
+    font-family: Helvetica, ;
+}
+
+header{
+    background-color: aqua;
+}
+ul {
+    float: right;
+    list-style-type: none;
+    margin-top: 25px;
+}
+
+ul li{
+    display: inline-block;
+}
+
+ul li a{
+    text-decoration: none;
+    color: #fff;
+    padding: 5px 20px;
+    border: 1px solid transparent;
+    transition: 0.6s ease;
+}
+
+ul li a:hover{
+    background-color: #fff;
+    color: #000;
+}
+
+ul li.active a{
+    background-color: #fff;
+    color: #000;
+}
+.logo img{
+    float: left;
+    width: 200px;
+    height: 190px;
+    margin-top: -60px;
+}
+
+.main{
+    max-width: 1200px;
+    margin: auto;
+}
+.img{
+    -webkit-transform: rotate(-90deg);
+    -moz-transform: rotate(-90deg);
+      -o-transform: rotate(-90deg);
+     -ms-transform: rotate(-90deg);
+         transform: rotate(-90deg);
+}
+  }
